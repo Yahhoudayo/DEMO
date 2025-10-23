@@ -258,7 +258,7 @@ class MapComponent2 extends HTMLElement {
 <g class="cg-pin-wrap" transform="translate(9900,600) scale(3.0)" data-name="演劇部" data-map-id="drama-club" data-base-x="9900" data-base-y="600" tabindex="0">
     <image href="images/pins/9.webp" width="400" height="400" x="-30" y="-30" />
 </g>
-<g class="cg-pin-wrap" transform="translate(10720,600) scale(3.0)" data-name="軽語研究部" data-map-id="light-language" data-base-x="10720" data-base-y="600" tabindex="0">
+<g class="cg-pin-wrap" transform="translate(10720,600) scale(3.0)" data-name="落語研究部" data-map-id="light-language" data-base-x="10720" data-base-y="600" tabindex="0">
     <image href="images/pins/10.webp" width="400" height="400" x="-30" y="-30" />
 </g>
 
