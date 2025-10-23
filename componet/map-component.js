@@ -34,10 +34,11 @@ class MapComponent extends HTMLElement {
       <style>
         :host {
           display: block;
-          /* マップの「四角い範囲」を定義し、高さを固定 */
+          /* アスペクト比を維持する設定に変更 */
           width: 90%; 
           max-width: 1000px; 
-          height: 80vh; /* 表示の高さをビューポートの80%に固定 */
+          aspect-ratio: 12500 / 11000; /* SVGのviewBoxと同じ比率 */
+          max-height: 80vh; /* 画面からはみ出さないように最大高さも設定 */
           margin: 20px auto;
           border: 1px solid #ccc;
           background-color: #fafafa;
@@ -162,7 +163,7 @@ class MapComponent extends HTMLElement {
 
         #modal-detail {
           font-size: 16px;
-          color: #666;Q
+          color: #666;
           line-height: 1.6;
           margin-bottom: 20px;
         }
@@ -183,43 +184,43 @@ class MapComponent extends HTMLElement {
 
 
 <g class="cg-pin-wrap" transform="translate(5600,8070) scale(3.0)" data-name="男子トイレ" data-map-id="toilet-men" data-base-x="5600" data-base-y="8070" tabindex="0">
-          <image href="images/pins/man.webp" width="60" height="60" x="-30" y="-30" />
+          <image href="images/pins/man.webp" width="60" height="60" x="-30" y="-30" />
 </g>
 
 <g class="cg-pin-wrap" transform="translate(5600,7800) scale(3.0)" data-name="女子トイレ" data-map-id="toilet-women" data-base-x="5600" data-base-y="7800" tabindex="0">
-          <image href="images/pins/woman.webp" width="60" height="60" x="-30" y="-30" />
+          <image href="images/pins/woman.webp" width="60" height="60" x="-30" y="-30" />
 </g>
 
 <g class="cg-pin-wrap" transform="translate(4140,8800) scale(3.0)" data-name="保健室" data-map-id="health-room" data-base-x="3620" data-base-y="8800" tabindex="0">
-          <image href="images/pins/1.webp" width="350" height="350" x="-30" y="-30" />
+          <image href="images/pins/1.webp" width="350" height="350" x="-30" y="-30" />
 </g>
 
 <g class="cg-pin-wrap" transform="translate(2280,9590) scale(3.0)" data-name="女子トイレ" data-map-id="toilet-women" data-base-x="2280" data-base-y="9590" tabindex="0">
-          <image href="images/pins/woman.webp" width="60" height="60" x="-30" y="-30" />
+          <image href="images/pins/woman.webp" width="60" height="60" x="-30" y="-30" />
 </g>
 
 <g class="cg-pin-wrap" transform="translate(2050,9590) scale(3.0)" data-name="男子トイレ" data-map-id="toilet-men" data-base-x="2050" data-base-y="9590" tabindex="0">
-          <image href="images/pins/man.webp" width="60" height="60" x="-30" y="-30" />
+          <image href="images/pins/man.webp" width="60" height="60" x="-30" y="-30" />
 </g>
 
 <g class="cg-pin-wrap" transform="translate(6175,1412) scale(3.0)" data-name="女子トイレ" data-map-id="toilet-women" data-base-x="6175" data-base-y="1412" tabindex="0">
-          <image href="images/pins/woman.webp" width="60" height="60" x="-30" y="-30" />
+          <image href="images/pins/woman.webp" width="60" height="60" x="-30" y="-30" />
 </g>
 
 <g class="cg-pin-wrap" transform="translate(8250,3800) scale(3.0)" data-name="機械専門展示(3M、4M、5M)" data-map-id="mecha" data-base-x="8250" data-base-y="3800" tabindex="0">
-          <image href="images/pins/m.webp" width="350" height="350" x="-30" y="-30" />
+          <image href="images/pins/m.webp" width="350" height="350" x="-30" y="-30" />
 </g>
 
 <g class="cg-pin-wrap" transform="translate(7550,3800) scale(3.0)" data-name="機械専門展示(3M、4M、5M)" data-map-id="mecha" data-base-x="7550" data-base-y="3800" tabindex="0">
-          <image href="images/pins/m.webp" width="350" height="350" x="-30" y="-30" />
+          <image href="images/pins/m.webp" width="350" height="350" x="-30" y="-30" />
 </g>
 
 <g class="cg-pin-wrap" transform="translate(8950,3800) scale(3.0)" data-name="機械専門展示(3M、4M、5M)" data-map-id="mecha" data-base-x="8950" data-base-y="3800" tabindex="0">
-          <image href="images/pins/m.webp" width="350" height="350" x="-30" y="-30" />
+          <image href="images/pins/m.webp" width="350" height="350" x="-30" y="-30" />
 </g>
 
 <g class="cg-pin-wrap" transform="translate(5500,5590) scale(3.0)" data-name="化学専門展示(化学実験室)" data-map-id="chemistry-lab" data-base-x="5500" data-base-y="5590" tabindex="0">
-          <image href="images/pins/z.webp" width="350" height="350" x="-30" y="-30" />
+          <image href="images/pins/z.webp" width="350" height="350" x="-30" y="-30" />
 </g>
 
       </svg>
