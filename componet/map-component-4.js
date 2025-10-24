@@ -75,7 +75,7 @@ class MapComponent4 extends HTMLElement {
                     width: 90%; 
                     max-width: 1000px; 
                     aspect-ratio: 4905 / 3042;
-                    max-height: 80vh;
+                    margin: 10px auto; /* ページの余白を少し減らす */
                     margin: 20px auto;
                     border: 1px solid #ccc;
                     background-color: #fafafa;
