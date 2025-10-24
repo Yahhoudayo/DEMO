@@ -45,8 +45,8 @@
         {
             "name": "保健室",
             "mapId": "health-room",
-            "x": 4140,
-            "y": 8800,
+            "x": 4540,
+            "y": 9400,
             "img": "images/pins/1.webp",
             "size": 350,
             "scale": 3.0
