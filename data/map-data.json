@@ -1,0 +1,111 @@
+{
+    "locations": {
+        "男子トイレ": {
+            "image": "images/pins/a.webp",
+            "detail": "男子トイレです。"
+        },
+        "女子トイレ": {
+            "image": "images/pins/b.webp",
+            "detail": "女子トイレです。"
+        },
+        "機械専門展示(3M、4M、5M)": {
+            "image": "images/exhibition-posters/mecha.webp",
+            "detail": "機械コースの専門展示です。<br>・歯車×ガチャ<br>・スマホスタンド<br>・チョロQ<br>・表面張力×ボート<br>・パラシュート×的あて<br>・？？？<br>・？？？"
+        },
+        "化学専門展示(化学実験室)": {
+            "image": "images/exhibition-posters/chemistry.webp",
+            "detail": "化学コースの専門展示です<br>・スライムづくり<br>・バスボムづくり<br>・ミニアロマキャンドルづくり<br>・人工いくらづくり<br>・オリジナルのプラ板ストラップづくり<br>・顕微鏡体験<br>・巨大シャボン玉"
+        },
+        "電気専門展示": {
+            "image": "images/exhibition-posters/electricity.webp",
+            "detail": "・ドローンの操縦<br>・スロットマシン<br>・キャップ射的<br>・LEDイルミネーション<br>・自動操縦ラジコン<br>・ラジコンカーの操縦<br>・レーザー加工キーホルダー作製<br>・脱出ゲーム"
+        },
+        "保健室": {
+            "image": "images/pins/electricity.webp",
+            "detail": "保健室です。体調不良の方はお申し付けください。"
+        }
+    },
+    "pins": [
+        {
+            "name": "男子トイレ",
+            "mapId": "toilet-men-1",
+            "x": 5600,
+            "y": 8070,
+            "img": "images/pins/man.webp",
+            "size": 60
+        },
+        {
+            "name": "女子トイレ",
+            "mapId": "toilet-women-1",
+            "x": 5600,
+            "y": 7800,
+            "img": "images/pins/woman.webp",
+            "size": 60
+        },
+        {
+            "name": "保健室",
+            "mapId": "health-room",
+            "x": 4140,
+            "y": 8800,
+            "img": "images/pins/1.webp",
+            "size": 350,
+            "scale": 3.0
+        },
+        {
+            "name": "女子トイレ",
+            "mapId": "toilet-women-2",
+            "x": 2280,
+            "y": 9590,
+            "img": "images/pins/woman.webp",
+            "size": 60
+        },
+        {
+            "name": "男子トイレ",
+            "mapId": "toilet-men-2",
+            "x": 2050,
+            "y": 9590,
+            "img": "images/pins/man.webp",
+            "size": 60
+        },
+        {
+            "name": "女子トイレ",
+            "mapId": "toilet-women-3",
+            "x": 6175,
+            "y": 1412,
+            "img": "images/pins/woman.webp",
+            "size": 60
+        },
+        {
+            "name": "機械専門展示(3M、4M、5M)",
+            "mapId": "mecha-1",
+            "x": 8250,
+            "y": 3800,
+            "img": "images/pins/m.webp",
+            "size": 350
+        },
+        {
+            "name": "機械専門展示(3M、4M、5M)",
+            "mapId": "mecha-2",
+            "x": 7550,
+            "y": 3800,
+            "img": "images/pins/m.webp",
+            "size": 350
+        },
+        {
+            "name": "機械専門展示(3M、4M、5M)",
+            "mapId": "mecha-3",
+            "x": 8950,
+            "y": 3800,
+            "img": "images/pins/m.webp",
+            "size": 350
+        },
+        {
+            "name": "化学専門展示(化学実験室)",
+            "mapId": "chemistry-lab",
+            "x": 5500,
+            "y": 5590,
+            "img": "images/pins/z.webp",
+            "size": 350
+        }
+    ]
+}
